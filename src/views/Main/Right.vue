@@ -13,6 +13,7 @@
 </template>
 
 <script setup>
+
 import { mainStore } from "@/store";
 import Func from "@/views/Func/index.vue";
 import Link from "@/components/Links.vue";
@@ -38,7 +39,7 @@ const siteUrl = computed(() => {
   margin-left: 0.75rem;
   .logo {
     width: 100%;
-    font-family: "Pacifico-Regular";
+    font-family: "Pacifico-Regular",serif;
     font-size: 2.25rem;
     position: fixed;
     top: 6%;
